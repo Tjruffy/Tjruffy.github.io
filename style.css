@@ -1,0 +1,99 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+    max-width: 1200px; 
+    box-sizing: border-box;
+    }
+ header {background-color: coral;
+          padding: 10px;
+          text-align: center;
+         }
+ .main-text{
+     font-family: cursive;
+     font-size: 50px;
+     font-stretch: expanded;
+ }
+ .responsibility{
+     text-transform: uppercase;
+     font-weight: bold;
+     text-decoration-line: underline;
+ }
+ .summary{background-color: bisque;
+         padding: 10px;
+         text-align: center;
+         } 
+ .work{
+     background-color: aquamarine;
+     padding: 10px;
+ }        
+ .container{
+     display: flex;
+ }
+ .education{
+     background-color: blanchedalmond;
+     flex: 2;
+     padding: 10px;
+ } 
+ .skill{
+     background-color: beige;
+     flex: 1;
+     padding: 10px;
+ }  
+ ul{
+    list-style: none; 
+ }
+ footer{
+     background-color: black; 
+     text-align: center; 
+     text-transform: lowercase;
+     font-size: 10px;
+ }   
+ .sub-text{ 
+     text-align: center;
+ }
+ h3{ text-align: center;}
+ fieldset {
+    width: 350px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px;
+    color: #444444;
+    font-weight: bold;
+    }
+legend {
+    background-color: #efefef;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-transform: uppercase;}
+    input#submit {
+        color: #444444;
+        text-shadow: 0px 1px 1px #ffffff;
+        border-bottom: 2px solid #b2b2b2;
+        background-color: #b9e4e3;
+                }
+        input#submit:hover {
+        color: #333333;
+        border: 1px solid #a4a4a4;
+        border-top: 2px solid #b2b2b2;
+        background-color: #a0dbc4;
+        }
+        input, textarea {
+            font-size: 120%;
+            color: #5a5854;
+            background-color: #f2f2f2;
+            border: 1px solid #bdbdbd;
+            border-radius: 5px;
+            padding: 5px 5px 5px 10px;
+            background-repeat: no-repeat;
+            background-position: 8px 9px;
+            display: block;
+            margin-bottom: 10px;}
+            input:focus {
+            background-color: #ffffff;
+            border: 1px solid #b1e1e4;}
+        label {
+            font-size: 120%;
+            color: #5a5854   
+        }    
